@@ -15,7 +15,6 @@ app = dash.Dash(
 )
 app.title = "Dashboard energia"
 
-
 server = app.server
 app.config.suppress_callback_exceptions = True
 
